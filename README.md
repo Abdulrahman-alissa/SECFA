@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+# SECFA Project
 
-## Project info
+A web application built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn-ui**.
 
-**URL**: https://lovable.dev/projects/b1c8acc2-6029-4e79-b68c-2f072f9dab1e
+## Project Overview
 
-## How can I edit this code?
+This project is a modern, responsive web application leveraging the latest frontend technologies for fast development and smooth user experience.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- Built with **React** and **TypeScript**
+- Styled using **Tailwind CSS**
+- UI components powered by **shadcn-ui**
+- Vite for lightning-fast development and build
+- Fully responsive design
+- Ready for deployment on any static hosting platform
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b1c8acc2-6029-4e79-b68c-2f072f9dab1e) and start prompting.
+## Project Structure
 
-Changes made via Lovable will be committed automatically to this repo.
+src/
+├─ components/ # Reusable UI components
+├─ pages/ # Page components for routing
+├─ hooks/ # Custom React hooks
+├─ context/ # React context providers
+├─ assets/ # Images, icons, and static assets
+├─ App.tsx # Main application component
+├─ main.tsx # Entry point
 
-**Use your preferred IDE**
+bash
+Copy code
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Follow these steps to run the project locally:
 
-Follow these steps:
+### Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js (v18+ recommended)
+- npm or yarn
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Clone the repository
+git clone <YOUR_REPOSITORY_URL>
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Navigate to the project folder
+cd <PROJECT_NAME>
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Start the development server
 npm run dev
-```
+# or
+yarn dev
+The application should now be running at http://localhost:5173 (or the URL displayed in the terminal).
 
-**Edit a file directly in GitHub**
+Scripts
+Command	Description
+npm run dev	Start the development server
+npm run build	Build the app for production
+npm run preview	Preview the production build locally
+npm run lint	Run linter
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Deployment
+You can deploy this project on any static hosting platform, such as:
 
-**Use GitHub Codespaces**
+GitHub Pages
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Vercel
 
-## What technologies are used for this project?
+Netlify
 
-This project is built with:
+AWS S3 + CloudFront
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Example: Deploy to GitHub Pages
+bash
+Copy code
+npm run build
+npx gh-pages -d dist
+Contributing
+Contributions are welcome! Please follow these steps:
 
-## How can I deploy this project?
+Fork the repository
 
-Simply open [Lovable](https://lovable.dev/projects/b1c8acc2-6029-4e79-b68c-2f072f9dab1e) and click on Share -> Publish.
+Create a new branch (git checkout -b feature/your-feature)
 
-## Can I connect a custom domain to my Lovable project?
+Make your changes
 
-Yes, you can!
+Commit your changes (git commit -m "Add feature")
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Push to the branch (git push origin feature/your-feature)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Open a Pull Request
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
